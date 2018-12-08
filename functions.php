@@ -159,9 +159,7 @@ function devrev_scripts() {
     wp_enqueue_script( 'devrev-js4', get_template_directory_uri() . '/js/jquery.waypoints.min.js', array(), '20151215', true );
     wp_enqueue_script( 'devrev-js5', get_template_directory_uri() . '/js/jquery.counterup.min.js', array(), '20151215', true );
     wp_enqueue_script( 'devrev-js6', get_template_directory_uri() . '/js/svgembedder.min.js', array(), '20151215', true );
-    //<!--</maps>-->
-//    wp_enqueue_script( 'devrev-js7', get_template_directory_uri() . '/https://maps.googleapis.com/maps/api/js?key=AIzaSyAi4pzXIaemolBXDPx_xYjp-97HMC209GI', array(), '20151215', true );
-//    wp_enqueue_script( 'devrev-js8', get_template_directory_uri() . '/js/google.maps.js', array(), '20151215', true );
+
     //<!-- Owl carousel js plugin -->
     wp_enqueue_script( 'devrev-js9', get_template_directory_uri() . '/owl-carousel/owl.carousel.min.js', array(), '20151215', true );
     //<!-- bootstrap -->
